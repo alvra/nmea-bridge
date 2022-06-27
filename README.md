@@ -2,7 +2,7 @@ NMEA Wi-Fi Bridge
 =================
 
 This project allows the ESP8266 microcontroller
-to be connected to your NMEA device to
+to be connected to your NMEA 0183 device to
 broadcast NMEA sentences over Wi-Fi.
 
 You can use it, for example, on your boat to connect your AIS
