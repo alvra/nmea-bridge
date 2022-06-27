@@ -6,7 +6,7 @@ to be connected to your NMEA device to
 broadcast NMEA sentences over Wi-Fi.
 
 You can use it, for example, on your boat to connect your AIS
-receiver to your char plotter wirelessly.
+receiver to your chart plotter wirelessly.
 
 <table>
 <tr>
