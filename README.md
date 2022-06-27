@@ -8,6 +8,14 @@ broadcast NMEA sentences over Wi-Fi.
 You can use it, for example, on your boat to connect your AIS
 receiver to your char plotter wirelessly.
 
+<table>
+<tr>
+<td valign="top"><img src="preview/info.png"></td>
+<td valign="top"><img src="preview/config.png"></td>
+<td valign="top"><img src="preview/log.png"></td>
+</tr>
+</table>
+
 Features
 
   * Almost completely configurable over Wi-Fi.
