@@ -68,7 +68,7 @@ enum TransmitMode: uint8_t {
 };
 
 #define BAUDRATE_OPTION_COUNT  4
-uint16_t baudrate_options[BAUDRATE_OPTION_COUNT + 1] = {
+uint32_t baudrate_options[BAUDRATE_OPTION_COUNT + 1] = {
     0,  // not an option, used to distinguish from undefined
     4800,
     9600,
@@ -915,10 +915,9 @@ String ip_address_form_value(IPAddress addr) {
 
 void write_form_html_baudrate_items(uint8_t selected_baudrate) {
     for (int n = 1; n <= BAUDRATE_OPTION_COUNT; n ++) {
-        uint16_t baudrate = baudrate_options[n];
         write_form_html_select_item(
             String(n),
-            String(baudrate),
+            String(baudrate_options[n]),
             selected_baudrate == n);
     }
 }
